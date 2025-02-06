@@ -1,0 +1,57 @@
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.container {
+  padding: 20px;
+}
+
+.job-filter {
+  margin-bottom: 20px;
+}
+
+.job-filter input,
+.job-filter select {
+  margin-right: 10px;
+  padding: 5px;
+}
+
+.job-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.job-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.job-card h3 {
+  margin: 0 0 10px;
+}
+
+.job-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.job-card button:hover {
+  background-color: #0056b3;
+}
